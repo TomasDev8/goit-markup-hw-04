@@ -160,6 +160,11 @@ h3 {
 .product-images {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 94px
+}
+
+h2 {
+    margin-top: 220px;
 }
 
 .product-images-one {
@@ -220,13 +225,29 @@ h3 {
 }
 
 .container {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+        width: 1600px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.container>h2 {
+    margin-bottom: 44px;
+    margin-top: -50px;
+    margin-left: 90px;
 }
 
 .container-first-section {
     background-color: #2F303A;
+    background-image: url(images/trabajadores.jpg);
+    background-size: cover;
+    background-position: center;
     position: static;
     display: flex;
     height: 600px;
@@ -266,10 +287,6 @@ h3 {
     display: flex;
     align-items: center;
     line-height: 14.16px;
-}
-
-.menu-social-networks-:hover {
-    color: #2196F3;
 }
 
 .menu li a.link-logo- {
@@ -400,7 +417,7 @@ footer {
     top: 775px;
     margin-left: 215px;
     margin-right: 215px;
-    margin-top: 95px;
+    margin-top: 82px;
     margin-bottom: 94px;
 }
 
@@ -488,12 +505,23 @@ h3 {
 .container-third-section {
     background-color: #F5F4FA;
     width: 1600px;
-    height: 648px;
+    height: 708px;
     display: inline-block;
     margin-top: 94px;
     justify-content: space-between;
     margin: 0;
     padding: 0;
+}
+
+.container-fourth-section {
+    width: 1600px;
+    height: 350px;
+}
+
+.container-fourth-section>h2 {
+    margin-top: 59px;
+    margin-right: 260px;
+    
 }
 
 .designer-image {
@@ -547,11 +575,27 @@ h3 {
     line-height: 32.2px;
     color: #212121;
     font-weight: 500;
+    
 }
 
 .card-content p {
     margin: 0;
 }
+
+.social-media-container {
+    display: flex;
+    list-style: none;
+    padding-bottom: 30px;
+    
+    
+}
+
+.social-media-icon {
+    fill: #AFB1B8;
+    margin-top: -15px;
+    }
+
+
 
 .line {
     border: 1px solid #ECECEC;
@@ -617,7 +661,14 @@ h3 {
     margin-top: 106px;
 }
 
+
 li button:hover {
+    background-color: #2196F3;
+    color: white;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+li button:focus {
     background-color: #2196F3;
     color: white;
 }
@@ -686,4 +737,131 @@ li button:hover {
     font-style: normal;
     text-align: left;
     padding: 0px 24px 20px 24px;
+}
+
+.border {
+border-bottom: 5px solid #C4C4C4;
+width: 1600px;
+}
+
+.mail-icon {
+margin-left: 240px;
+margin-right: 10px;
+fill: #757575;
+}
+    
+.phone-icon {
+margin-left: 30px;
+margin-right: 10px;
+fill: #757575;
+}
+
+.icon-bg {
+background-color: #F5F4FA;
+border-radius: 4px;
+width: 270px;
+height: 120px;
+margin-bottom: 30px;
+}
+
+.image-caption {
+position: absolute;
+bottom: 5px;
+left: 0;
+width: 372px;
+height: 70px;
+background: rgba(47, 48, 58, 0.80);
+padding: 27px 79px 27px 79px;
+color: #FFF;
+font-size: 14px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.icon-cliente-regular {
+
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    width: 170px;
+    height: 81px;
+    list-style: none;
+    background-color:#F5F4FA;
+}
+
+.icon-cr-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 225px;
+    margin-right: 165px;
+    margin-bottom: 60px;
+}
+
+.encuentranos {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: -47px;
+    }
+
+.icon-footer-container {
+    display: flex;
+    padding-top: 20px;
+    gap: 10px;
+    list-style: none;
+    margin-left: -176px;
+    margin-bottom: 229px;
+    margin-top: 1px;
+
+}
+
+.icon-footer {
+    fill: white;
+    position: relative;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    top: -30px;
+    
+}
+
+.icon-color {
+    fill: #AFB1B8;
+}
+
+.icon-color:hover {
+    fill: #2196F3;
+    stroke: #2196F3;
+}
+
+.icon-footer:hover,
+.icon-footer:active {
+background-color:#2196F3;
+}
+
+.social-media-icon:hover {
+    fill: white;
+    background-color: #2196F3;
+    border-radius: 50%;
+}
+
+.mail-icon:hover,
+.phone-icon:hover {
+    fill: #2196F3;
+}
+
+.link-info-contact-email:hover,
+.link-info-contact-tel:hover {
+    color: #2196F3;
 }
